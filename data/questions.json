@@ -1,0 +1,262 @@
+[
+  {
+    "id": "capital-pernambuco",
+    "prompt": "Recife é a capital de qual estado brasileiro?",
+    "options": [
+      "Alagoas",
+      "Pernambuco",
+      "Paraíba",
+      "Ceará"
+    ],
+    "correctIndex": 1,
+    "fact": "Recife é a capital de Pernambuco e um dos principais centros culturais do Nordeste.",
+    "category": "Geografia"
+  },
+  {
+    "id": "rio-capibaribe",
+    "prompt": "Qual rio atravessa e marca a paisagem urbana do Recife?",
+    "options": [
+      "Rio Capibaribe",
+      "Rio São Francisco",
+      "Rio Jaguaribe",
+      "Rio Parnaíba"
+    ],
+    "correctIndex": 0,
+    "fact": "O Capibaribe corta a cidade e ajuda a formar a identidade de Recife como cidade das pontes.",
+    "category": "Geografia"
+  },
+  {
+    "id": "frevo-patrimonio",
+    "prompt": "Qual manifestação cultural pernambucana é famosa pelos passos rápidos e pela sombrinha colorida?",
+    "options": [
+      "Jongo",
+      "Carimbó",
+      "Frevo",
+      "Catira"
+    ],
+    "correctIndex": 2,
+    "fact": "O frevo é Patrimônio Cultural Imaterial da Humanidade e toma as ruas no Carnaval do Recife.",
+    "category": "Cultura"
+  },
+  {
+    "id": "recife-antigo",
+    "prompt": "Em qual bairro histórico fica o Marco Zero do Recife?",
+    "options": [
+      "Casa Forte",
+      "Recife Antigo",
+      "Várzea",
+      "Boa Viagem"
+    ],
+    "correctIndex": 1,
+    "fact": "O Recife Antigo reúne o Marco Zero, armazéns, centros culturais e uma vista especial para o porto.",
+    "category": "Turismo"
+  },
+  {
+    "id": "boa-viagem",
+    "prompt": "Qual praia é um dos cartões-postais mais conhecidos da zona sul recifense?",
+    "options": [
+      "Praia de Boa Viagem",
+      "Praia do Futuro",
+      "Praia de Ponta Negra",
+      "Praia de Iracema"
+    ],
+    "correctIndex": 0,
+    "fact": "Boa Viagem combina faixa de areia urbana, piscinas naturais na maré baixa e muita vida ao redor.",
+    "category": "Turismo"
+  },
+  {
+    "id": "cais-do-sertao",
+    "prompt": "O Cais do Sertão é um museu dedicado principalmente a qual universo cultural?",
+    "options": [
+      "A cultura sertaneja",
+      "A história da aviação",
+      "A astronomia",
+      "A arte japonesa"
+    ],
+    "correctIndex": 0,
+    "fact": "O Cais do Sertão celebra a cultura sertaneja, com destaque para Luiz Gonzaga e o diálogo entre sertão e litoral.",
+    "category": "Cultura"
+  },
+  {
+    "id": "paco-do-frevo",
+    "prompt": "Qual espaço cultural do Recife é dedicado à memória e à celebração do frevo?",
+    "options": [
+      "Paço do Frevo",
+      "Museu do Amanhã",
+      "Casa do Pontal",
+      "Museu do Café"
+    ],
+    "correctIndex": 0,
+    "fact": "O Paço do Frevo funciona no Recife Antigo e oferece exposições, oficinas e programação cultural.",
+    "category": "Cultura"
+  },
+  {
+    "id": "galo-da-madrugada",
+    "prompt": "O Galo da Madrugada é conhecido por ser um dos maiores blocos de qual festa?",
+    "options": [
+      "São João",
+      "Carnaval",
+      "Natal",
+      "Festa do Divino"
+    ],
+    "correctIndex": 1,
+    "fact": "O Galo da Madrugada desfila no Sábado de Zé Pereira e é um dos símbolos do Carnaval recifense.",
+    "category": "Cultura"
+  },
+  {
+    "id": "bolo-de-rolo",
+    "prompt": "Qual doce pernambucano é feito com finas camadas de massa e goiabada?",
+    "options": [
+      "Bolo de rolo",
+      "Quindim",
+      "Pé de moleque",
+      "Cartola"
+    ],
+    "correctIndex": 0,
+    "fact": "O bolo de rolo é um patrimônio cultural e gastronômico de Pernambuco.",
+    "category": "Gastronomia"
+  },
+  {
+    "id": "cartola",
+    "prompt": "A cartola, sobremesa tradicional pernambucana, combina banana com qual ingrediente?",
+    "options": [
+      "Queijo e canela",
+      "Peixe e limão",
+      "Coco e pimenta",
+      "Milho e erva-doce"
+    ],
+    "correctIndex": 0,
+    "fact": "A cartola costuma levar banana frita, queijo manteiga, açúcar e canela.",
+    "category": "Gastronomia"
+  },
+  {
+    "id": "ponte-mauricio",
+    "prompt": "Qual nome também identifica a ponte histórica sobre o Capibaribe próxima ao Recife Antigo?",
+    "options": [
+      "Ponte Maurício de Nassau",
+      "Ponte Rio-Niterói",
+      "Ponte Hercílio Luz",
+      "Ponte JK"
+    ],
+    "correctIndex": 0,
+    "fact": "A Ponte Maurício de Nassau é uma das pontes históricas que conectam áreas centrais do Recife.",
+    "category": "História"
+  },
+  {
+    "id": "casa-da-cultura",
+    "prompt": "A Casa da Cultura Luiz Gonzaga ocupa o prédio de qual antigo equipamento?",
+    "options": [
+      "Estação ferroviária",
+      "Mercado de peixe",
+      "Fortaleza",
+      "Usina de açúcar"
+    ],
+    "correctIndex": 0,
+    "fact": "A antiga Casa de Detenção foi transformada em centro cultural com lojas, oficinas e memória local.",
+    "category": "História"
+  },
+  {
+    "id": "brennand-varzea",
+    "prompt": "Em qual região do Recife fica a Oficina Cerâmica Francisco Brennand?",
+    "options": [
+      "Várzea",
+      "Ibura",
+      "Pina",
+      "Santo Amaro"
+    ],
+    "correctIndex": 0,
+    "fact": "A Oficina Cerâmica ocupa a antiga Cerâmica São João, cercada por jardins e obras de Francisco Brennand.",
+    "category": "Arte"
+  },
+  {
+    "id": "maracatu-nacao",
+    "prompt": "O maracatu-nação é uma manifestação tradicional fortemente associada a qual região?",
+    "options": [
+      "Pernambuco",
+      "Rio Grande do Sul",
+      "Goiás",
+      "Amapá"
+    ],
+    "correctIndex": 0,
+    "fact": "O maracatu-nação preserva cortejos, baques e personagens ligados à memória afro-brasileira pernambucana.",
+    "category": "Cultura"
+  },
+  {
+    "id": "ilha-do-leite",
+    "prompt": "Qual bairro do Recife é tradicionalmente reconhecido pela concentração de hospitais e serviços de saúde?",
+    "options": [
+      "Ilha do Leite",
+      "Madalena",
+      "Poço da Panela",
+      "Brasília Teimosa"
+    ],
+    "correctIndex": 0,
+    "fact": "A Ilha do Leite é um importante polo médico e empresarial próximo à área central do Recife.",
+    "category": "Cidade"
+  },
+  {
+    "id": "porto-digital",
+    "prompt": "O Porto Digital é um polo recifense conhecido principalmente por inovação em qual área?",
+    "options": [
+      "Tecnologia e economia criativa",
+      "Mineração",
+      "Indústria naval",
+      "Agricultura"
+    ],
+    "correctIndex": 0,
+    "fact": "O Porto Digital ocupa prédios históricos do Recife Antigo e conecta tecnologia, negócios e criatividade.",
+    "category": "Cidade"
+  },
+  {
+    "id": "marco-zero",
+    "prompt": "No Marco Zero, a rosa dos ventos marca simbolicamente qual ponto da cidade?",
+    "options": [
+      "O centro histórico e cultural do Recife",
+      "O ponto mais alto do estado",
+      "A entrada do aeroporto",
+      "O limite municipal ao norte"
+    ],
+    "correctIndex": 0,
+    "fact": "A praça do Marco Zero é um ponto de encontro para shows, festas e a paisagem do Recife Antigo.",
+    "category": "Turismo"
+  },
+  {
+    "id": "rios-e-pontes",
+    "prompt": "O apelido ‘Veneza Brasileira’ faz referência principalmente a quê?",
+    "options": [
+      "Rios, canais e pontes",
+      "Montanhas nevadas",
+      "Gôndolas no litoral",
+      "Campos de tulipas"
+    ],
+    "correctIndex": 0,
+    "fact": "A comparação destaca a relação do Recife com rios, ilhas, canais e pontes no tecido urbano.",
+    "category": "Geografia"
+  },
+  {
+    "id": "tapioca",
+    "prompt": "A tapioca é preparada tradicionalmente a partir de qual ingrediente?",
+    "options": [
+      "Goma de mandioca",
+      "Farinha de trigo",
+      "Fubá de milho",
+      "Polvilho doce"
+    ],
+    "correctIndex": 0,
+    "fact": "A goma de mandioca vira uma massa leve na chapa e pode receber recheios doces ou salgados.",
+    "category": "Gastronomia"
+  },
+  {
+    "id": "parque-das-esculturas",
+    "prompt": "O Parque das Esculturas Francisco Brennand fica em frente a qual área do Recife?",
+    "options": [
+      "Marco Zero",
+      "Mercado de São José",
+      "Parque da Jaqueira",
+      "Praça do Arsenal"
+    ],
+    "correctIndex": 0,
+    "fact": "O conjunto de esculturas pode ser visto do Marco Zero, do outro lado da Bacia do Pina.",
+    "category": "Arte"
+  }
+]

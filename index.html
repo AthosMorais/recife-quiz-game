@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#061014"><meta name="description" content="Recife Quiz Rush — desafio sobre Recife e Pernambuco.">
+<title>Recife Quiz Rush</title><link rel="stylesheet" href="styles.css">
+</head>
+<body><main class="shell"><header><div class="brand"><b>RQR</b><span>RQR // 01<br><small>DESAFIO METRÓPOLE</small></span></div><div class="live">● RANKING AO VIVO</div></header>
+<section class="hero"><div><p class="eyebrow">RECIFE // PE // BRASIL</p><h1>RECIFE <em>_QUIZ RUSH_</em></h1><p class="subtitle">Quanto Recife pulsa no seu código?</p><p class="muted">UMA RODADA. DEZ DESAFIOS. APROX. 3 MINUTOS.</p></div>
+<div class="card"><p class="eyebrow">// PROTOCOLO DE ACESSO</p><h2>ALIMENTE O RUSH.<br><em>DOMINE O MAPA.</em></h2><p>Responda antes do pulso zerar. Cada segundo preservado aumenta sua pontuação no ranking.</p><label for="playerName">IDENTIFICAÇÃO DO JOGADOR</label><input id="playerName" maxlength="24" placeholder="seu nome"><small>2–24 caracteres · salvo apenas neste navegador</small><button id="startBtn">INICIAR RUSH <b>→</b></button><div class="rules">15s por pergunta · +10 pts/s restante · teclado A–D</div></div></section>
+<section id="gamePanel" class="game card hidden"><div class="gamehead"><div><p class="eyebrow" id="questionCounter"></p><div class="progress"><i id="progressBar"></i></div></div><strong id="timer">15</strong></div><span class="category" id="category"></span><h2 id="prompt"></h2><div id="options" class="options"></div><p id="feedback" class="feedback"></p></section>
+<section id="resultPanel" class="result card hidden"><p class="eyebrow">// RUSH ENCERRADO</p><h2>CORRIDA CONCLUÍDA</h2><div id="finalScore" class="score">0000</div><p id="resultMessage"></p><button id="againBtn">JOGAR NOVAMENTE <b>↻</b></button></section>
+<aside class="ranking card"><div class="rankhead"><div><p class="eyebrow">// PLACAR GLOBAL</p><h2>TOP PILOTOS</h2></div><span>♛</span></div><div id="rankingList"></div><footer><span>● <span id="rankingMode">atualização local</span></span><span id="rankingCount"></span></footer><small>pontuação ordenada por desempenho e velocidade</small></aside><p class="bottom">Banco editorial · 20 PERGUNTAS NO BANCO · Firebase opcional com fallback local</p></main><script type="module" src="firebase.js"></script><script src="app.js"></script></body></html>
